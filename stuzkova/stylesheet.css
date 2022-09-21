@@ -1,7 +1,23 @@
 .Nadpisy{
    text-align: center;
+   overflow: hidden;
+   border-right: .15em solid white;
+   width: 0;
+   white-space: nowrap;
+   animation: typing 2s forwards;
 }
 
 .Texty{
    text-align: center;
+   overflow: hidden;
+   width: 0;
+}
+
+.container {
+  display: inline-block;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
