@@ -1,0 +1,29 @@
+/*nadpisy*/
+.Nadpisy{
+   text-align: center;
+   overflow: hidden;
+   width: 0;
+   white-space: nowrap;
+   animation: typing 2s forwards;
+}
+
+/*texty*/
+.Texty{
+   text-align: center;
+   overflow: hidden;
+   width: 0;
+   white-space: nowrap;
+   animation-delay: 1500ms;
+   animation: typing 2s forwards;
+}
+
+/*container class*/
+.container {
+  display: inline-block;
+}
+
+/*animation*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
