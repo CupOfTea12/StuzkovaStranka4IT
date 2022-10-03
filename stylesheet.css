@@ -18,13 +18,42 @@
    animation-delay: 1500ms;
 }
 
-.Text2{
+.TextNum2{
   text-align: center;
   overflow: hidden;
   width: 0;
   white-space: nowrap;
   animation: typing 2s forwards;
-  animation-delay: 1500ms;
+  animation-delay: 3500ms
+}
+
+.TextNum3{
+  text-align: center;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+  animation: typing 2s forwards;
+  animation-delay: 6500ms
+
+}
+
+.TextNum4{
+  text-align: center;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+  animation: typing 2s forwards;
+  animation-delay: 9500ms
+
+}
+
+.TextNum5{
+  text-align: right;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+  animation: typing 2s forwards;
+  animation-delay: 12500ms
 }
 
 
