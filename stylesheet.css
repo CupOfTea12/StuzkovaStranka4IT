@@ -5,17 +5,28 @@
    width: 0;
    white-space: nowrap;
    animation: typing 2s forwards;
+
 }
 
 /*texty*/
-.Texty{
+.Text1{
    text-align: center;
    overflow: hidden;
    width: 0;
    white-space: nowrap;
-   animation-delay: 1500ms;
    animation: typing 2s forwards;
+   animation-delay: 1500ms;
 }
+
+.Text2{
+  text-align: center;
+  overflow: hidden;
+  width: 0;
+  white-space: nowrap;
+  animation: typing 2s forwards;
+  animation-delay: 1500ms;
+}
+
 
 /*container class*/
 .container {
