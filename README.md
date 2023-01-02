@@ -1,2 +1,2 @@
 # StuzkovaStranka4IT
-priv repo for website
+old website that we used for stuzkova invitations
